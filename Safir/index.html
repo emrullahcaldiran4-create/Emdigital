@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Safir Gold</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+<header>
+
+<img src="logo.jpg" class="logo">
+
+<h2>GÜVENİLİR • HIZLI • KOLAY</h2>
+
+</header>
+
+
+<section class="card">
+
+<div class="title">
+
+<h1>IBAN</h1>
+
+<p>Aşağıdaki IBAN numarasına ödeme yapabilirsiniz.</p>
+
+</div>
+
+<div class="copyBox">
+
+<input
+id="iban"
+readonly
+value="emdigital">
+
+<button onclick="copyIBAN()">
+
+📋
+
+</button>
+
+</div>
+
+<button class="goldButton"
+
+onclick="copyIBAN()">
+
+IBAN KOPYALA
+
+</button>
+
+</section>
+
+
+
+<section class="card">
+
+<div class="title">
+
+<h1>AÇIKLAMA</h1>
+
+<p>Ödeme yaparken açıklamayı eksiksiz yazınız.</p>
+
+</div>
+
+<div class="copyBox">
+
+<input
+
+id="aciklama"
+
+readonly
+
+value="altın ödemesi">
+
+<button onclick="copyAciklama()">
+
+📋
+
+</button>
+
+</div>
+
+<button class="goldButton"
+
+onclick="copyAciklama()">
+
+AÇIKLAMAYI KOPYALA
+
+</button>
+
+</section>
+
+
+<section class="info">
+
+<h3>
+
+🛡️ GÜVENLİ ÖDEME
+
+</h3>
+
+<p>
+
+Ödemenizi güvenli şekilde gerçekleştirebilirsiniz.
+
+</p>
+
+</section>
+
+
+<footer>
+
+SAFİR GOLD
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
